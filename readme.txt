@@ -10,11 +10,11 @@ License: GPLv2
 
 The plugin makes the following shortcode available.
 
-`[cc-mkplc address="ANY-APP-NAME-GOES-HERE"]`
+`[cc-mkplc app="ANY-APP-NAME-GOES-HERE" height="HEIGHTpx"]`
 
 
 **Shortcode Examples**
 
 Display a map of the White House, USA:
 
-`[cc-mkplc address="Drupal"]`
+`[cc-mkplc app="Drupal" height"500px"]

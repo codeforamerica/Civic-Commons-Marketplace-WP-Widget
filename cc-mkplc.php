@@ -21,7 +21,7 @@ add_shortcode( 'cc-mkplc', 'cc_mkplc_sc' );
 function cc_mkplc_sc( $atts, $content = null ) {
   
 	$default_atts = array(
-		'address' => null,
+		'app' => null,
 		'height' => "300px",
 	);
 	
@@ -29,7 +29,7 @@ function cc_mkplc_sc( $atts, $content = null ) {
 	extract( shortcode_atts( $default_atts, $atts ) );
  
   //convert application name to ID
-  $url = "http://marketplace.civiccommons.org/api/v1/views/application_api.xml?filters[keywords]=".$address;
+  $url = "http://marketplace.civiccommons.org/api/v1/views/application_api.xml?filters[keywords]=".$app;
   $xml = simplexml_load_file($url);
   $id = $xml->item->nid;
 
