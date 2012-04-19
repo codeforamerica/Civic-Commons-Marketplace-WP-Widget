@@ -13,7 +13,7 @@ License: GPLv2
 
 The plugin makes the following shortcode available.
 
-    [cc-mkplc app="ANY-APP-NAME-GOES-HERE" height="HEIGHTpx"]
+    [cc-mkplc app="ANY-APP-NAME-OR-SEARCH-TERM-GOES-HERE" height="HEIGHTpx"]
 
 **Shortcode Examples**
 
